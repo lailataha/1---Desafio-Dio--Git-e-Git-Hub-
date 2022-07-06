@@ -1,0 +1,40 @@
+Notações da Aula de Introdução ao Git e GitHub Dio
+
+Git é um sistema de versionamento de código distribuido e o GitHub é um repósitório online. 
+
+Comandos Basicos de Navegação e como instalar o Git na Maquina. 
+
+Comandos e Atalhos Básicos do Git no windows: 
+
+-cd: Possibilita que naveguemos entre as pastas. 
+-cd / : Caminho específico para um diretório. 
+-cd e o nome da pasta específica: entra na pasta. 
+-cd ..: Retrocede 1 nível na navegação.
+-dir: Listar os diretórios contidos na pasta que estamos situados. 
+-cd ..: Sair da Pasta. 
+-ctrl l: Limpa a tela. 
+-mkdir: Criar Pastas.
+-del: Deletar Arqivos.
+-rmdir + nome da pasta + /S /Q: Deletar pastas.
+-mv nome do arquivo ./nome do novo repositório: move o arquivo para o novo repositório. 
+-echo > nome do arquivo: Criar novo arquivo. 
+*Atalhos: Tab: Completa nomes de pastas ou arquivos, digitando a primeira letra e Tab.
+
+Comandos para iniciar o Git, iniciar o versionamento e criar um commit:
+
+-git init: Inicia o repositório do Git.  
+-git add *: Mover arquivos, dar inicio ao versionamento e conhecer os primeiros comandos. 
+-git commit -m "commit inicial": Criar o primeiro commit. 
+-ls -a: Mostra arquivos ocultos. 
+-git config --global user.email"passar o email" e git config --global user.name: Configurar o autor para gerar o commit.
+
+Comandos referente ao Status dos Aarquivos (Tracked/Untracked/Unmodified/Modified/Staged)
+
+-git status: mostra o status do arquivo
+-git add + nome do arquivo: Adiciona os arquivos na area de Staged. 
+-git commit -m "mensagem": Criar o commit. 
+-git add.: Adiciona as modificações da área local para Staged. 
+
+Fonte: Aula de Introdução ao Git e GitHub Dio. 
+Link para download do git: https://git-scm.com/downloads
+Link para acesso ou criar uma conta no GitHub: https://circleci.com/integrations/github/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--latam-en-github-maxConv-auth-nb&utm_term=g_e-github_c__rsa2_20210526&utm_content=sem-google-dg--latam-en-github-maxConv-auth-nb_keyword-text_rsa-github_exact-&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvyoeNqzuBPA-W2nb3dKTYSWx9Ek90vgjOEylrHw2tsR1YteLJi9JO8aApaGEALw_wcB
