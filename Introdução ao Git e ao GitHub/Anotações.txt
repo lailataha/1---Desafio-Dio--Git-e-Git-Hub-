@@ -1,4 +1,4 @@
-Notações da Aula de Introdução ao Git e GitHub Dio
+Anotações da Aula de Introdução ao Git e GitHub Dio
 
 Git é um sistema de versionamento de código distribuido e o GitHub é um repósitório online. 
 
@@ -34,6 +34,7 @@ Comandos referente ao Status dos Aarquivos (Tracked/Untracked/Unmodified/Modifie
 -git add + nome do arquivo: Adiciona os arquivos na area de Staged. 
 -git commit -m "mensagem": Criar o commit. 
 -git add.: Adiciona as modificações da área local para Staged. 
+-git push origin main: Envia o commit local para a nuvem. 
 
 Fonte: Aula de Introdução ao Git e GitHub Dio. 
 Link para download do git: https://git-scm.com/downloads
